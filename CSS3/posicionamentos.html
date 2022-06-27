@@ -6,9 +6,16 @@
 	<title>Posicionamentos (static, relative, absolute, fixed e sticky)</title>
 	<link rel="stylesheet" href="">
 	<style type="text/css">
+        
+        /** {
+            margin: 0;
+            padding: 0;
+        }*/
 
 		body {
 			background: #007fc7;
+            margin: 0;
+            padding: 0;
 		}
 		
 		#container {
@@ -16,16 +23,38 @@
 			width: 800px;
 			margin: 10px auto;
 			padding: 10px;
+            position: relative;
 		}
 
-		h1 {
-			position: static;
-		}
 
 		p {
-			position: static;
 			width: 300px;
 		}
+        
+        .sticky {
+            position: sticky;
+            background-color: pink;
+            top: 46px;
+			border: 1px solid ;
+        }
+
+        
+        .fixed {
+            background-color: pink;
+            position: fixed;
+            right: 10px;
+            top: 46px;
+			border: 1px solid ;
+        }
+
+
+        .absolute {
+            background-color: pink;
+            position: absolute;
+			border: 1px solid ;
+            right: 10px;
+            top: 30px;
+        }
 
 		.relative {
 			border: 3px solid ;
@@ -38,9 +67,20 @@
 		<h1>Posicionamentos</h1>
 		<p>P1 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui cin dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
 
-		<p class="relative">P2 Ut cillum fugiat aute esse ut do ut moll Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+		<p class="sticky">P2 Ut cillum fugiat aute esse ut do ut moll Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
 
 		<p>P3 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+
+        <p>P3 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+
+        <p>P4 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+        
+        <p>P5 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+        
+        <p>P6 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+        
+        <p>P7 Ut cillum fugiat aute esse ut do ut mollit eiusmod qui Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
 	</div>
+
 </body>
 </html>
