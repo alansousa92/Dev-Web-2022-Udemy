@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Posicionamentos (static, relative, absolute, fixed e sticky)</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+
+		body {
+			background: #007fc7;
+		}
+		
+		#container {
+			background: #FFF;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+		}
+
+		h1 {
+			position: static;
+		}
+
+		p {
+			position: static;
+			width: 300px;
+		}
+
+		.relative {
+			border: 1px solid red;
+			position: relative;
+			left: 100px;
+			top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h1>Posicionamentos</h1>
+		<p>Ut cillum fugiat aute esse ut do ut mollit eiusmod qui cillum sit irure nulla ut non veniam eu pariatur duis aliquip labore tempor sed. Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+
+		<p class="relative">Ut cillum fugiat aute esse ut do ut mollit eiusmod qui cillum sit irure nulla ut non veniam eu pariatur duis aliquip labore tempor sed. Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+
+		<p>Ut cillum fugiat aute esse ut do ut mollit eiusmod qui cillum sit irure nulla ut non veniam eu pariatur duis aliquip labore tempor sed. Dolor in dolore sit minim in sit nulla do pariatur id aute velit aliqua quis nulla nulla sint pariatur ea aliquip tempor sint non occaecat voluptate elit sint ea ut fugiat culpa laboris duis.</p>
+	</div>
+</body>
+</html>
