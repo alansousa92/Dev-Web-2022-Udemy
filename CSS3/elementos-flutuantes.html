@@ -5,22 +5,31 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Elementos flutuantes</title>
 		<style>
+            
+            html {
+                box-sizing: border-box;                
+            }
+
+            *, *::before, *::after {
+               box-sizing: inherit; 
+            }
+
 			body {
 				background: dimgray;
 			}
 
 			#principal {
-				border: 2px solid red;
+			    border: 1px solid;
 				background-color: green;
 			}
 
 			.conteudo {
 				background: pink;
-				border: 1px solid black;
+			    border: 1px solid black;
 				width: 200px;
 				height: 200px;
-				margin: 10px;
-				float: right;
+				float: left;
+                margin: 5px;
 			}
 
 			/*.conteudo1 {
@@ -56,7 +65,7 @@
 				Conteudo 3
 			</div>
 
-			<div class="clear"></div>
+		    <div class="clear"></div>
 
 
 		</div>
