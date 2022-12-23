@@ -1,0 +1,39 @@
+body {
+    font-family:  "Lucida Console", "Courier New", monospace;
+    /*font-family: "Brush Script MT", Cursive;*/
+}
+
+#links {
+    border: 1px solid;
+
+}
+div  li  {
+    border: 1px solid;
+    padding: 5px;
+    display: inline;
+}
+div  li > a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+div  li > a:hover {
+    background-color: orange;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th {
+    background-color: LightSalmon;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+}
+
+td {
+    text-align: center;
+    height: 45px;
+}

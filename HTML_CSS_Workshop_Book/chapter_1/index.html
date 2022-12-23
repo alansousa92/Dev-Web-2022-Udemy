@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML and CSS</title>
+    <style type="text/css">
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: block;
+            padding: 16px;
+        }
+
+        li:nth-child(3n-1) {
+            background: skyblue;
+            color: white;
+            font-weight: bold;
+        }
+
+        li:nth-child(3n) {
+            background: deepskyblue;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <!-- Lista não ordenada-->
+   <ul>
+       <li>Item1</li>
+       <li>Item2</li>
+       <li>Item3</li>
+       <li>Item4</li>
+       <li>Item5</li>
+       <li>Item6</li>
+       <li>Item7</li>
+   </ul>
+</body>
+</html>

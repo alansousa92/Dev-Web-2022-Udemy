@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Praticando tags HTML</title>
+    <link rel="stylesheet" href="exercises-html.css">
+</head>
+<body>
+    <!-- Listas - Ordenada e Não ordenadas -->
+    <h2>Listas Ordenadas usando o elemento &#60;ol&#62;</h2>
+    <ol type="I">
+        <li>PHP</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Quebra de linha -->
+    <br>
+    <!-- Linha horizontal -->
+    <hr>
+    <h2>Lista Não Ordenada usando o elemento &#60;ul&#62;</h2>
+    <ul type="square">
+        <li>Homem de Ferro</li>
+        <li>Capitão America</li>
+        <li>Thor - Deus do Trovão</li>
+        <li>Huck</li>
+        <li>Viúva Negra</li>
+        <li>Gavião Arqueiro</li>
+    </ul>
+    <br>
+    <hr>
+    <h2>Formatação de Texto</h2>
+    <p><strong>Exemplo em negrito emfase usando Tag &#60;strong&#62;</strong></p>
+    <p><b>Exemplo em negrito usando a Tag &#60;b&#62;</b></p>
+    <p><em>Exemplo de texto em italico emfase usando a Tag &#60;em&#62;</em></p>
+    <p><i>Exemplo de Texto em italico usando a Tag &#60;i&#62;</i></p>
+    <p><del datetime="2022-10-24T16:04:35 -0300">Exemplo de texto deletado usando a Tag &#60;del&#62;</del></p>
+    <p><ins datetime="2022-10-24T16:05:57 -0300">Exemplo de Texto inserido usando a Tag &#60;ins&#62;</ins></p>
+    <br>
+    <hr>
+    <h2>Exibindo imagens com a elemento &#60;img&#62;</h2>
+    <img src="alps.jpg" alt="montanhas" width="500px" height="300px">
+    <br>
+    <hr>
+    <h2>Links usando a elemento &#60;a&#62;</h2>
+    <h3>Links de navegação da Pagina</h3>
+    <div id="links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <h2>Criando Tabelas com a elemento &#60;table&#62;</h2>
+    <table>
+        <tr>
+            <th>Nome Completo</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Estado Civil</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Alan Santos de Sousa</td>
+            <td>29</td>
+            <td>Masculino</td>
+            <td>Solteiro</td>
+            <td>Programador
+        </tr>
+        <tr>
+            <td>Clark Joseph Kent</td>
+            <td>30</td>
+            <td>Masculino</td>
+            <td>Solteiro</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Anthony Stark</td>
+            <td>50</td>
+            <td>Masculino</td>
+            <td>Casado</td>
+            <td>Empresario/Engenheiro</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Unknow</td>
+            <td colspan="4">Usando o atributo colspan pra expandir uma celula por colunas</td>
+        </tr>
+        <tr>
+            <td  rowspan="4">Usando o atributo rowspan para expandir uma celula por uma unica coluna</td>
+        </tr> 
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td</dt>
+        </tr> 
+        <tr>
+            <td></td>
+        </tr>
+
+
+
+    </table>
+    <br>
+    <hr>
+    <h2>Criando Formularios com o elemento &#60;form&#62;</h2>
+    <form action="">
+        <p>Tag &#60;input&#62; com seus respectivos types</p>
+        <ul>
+            <li>text</li>
+            <li>password</li>
+            <li>radio</li>
+            <li>checkbox</li>
+            <li>email</li>
+            <li>number</li>
+            <li>file</li>
+            <li>button</li>
+            <li>color</li>
+            <li>image</li>
+            <li>hidden</li>
+            <li>time</li>
+            <li>date</li>
+            <li>datetime-local</li>
+            <li>week</li>
+            <li>month</li>
+            <li>url</li>
+            <li>search</li>
+            <li>tel</li>
+            <li>ranger</li>
+            <li>submit</li>
+            <li>reset</li>
+        </ul>
+        <label for="">Nome:</label>
+        <input type="text" name="nome">
+        <br/>
+        <label for="">Email:</label>
+        <input type="email" name="email">
+        <br/>
+        <label for="">Sexo:</label>
+        <input type="radio" name="sexo">Masculino
+        <input type="radio" name="sexo">Feminino
+        <br/>
+        <label for="">Estado Civil:</label>
+        <input type="checkbox">Solteiro
+        <input type="checkbox">Casado
+        <br/>
+        <label for="">Senha:</label>
+        <input type="password">
+        <br/>
+        <label for="">Numero:</label>
+        <input type="number">
+        <br/>
+        <label for="">Arquivo:</label>
+        <input type="file">
+        <br/>
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+        <label for=""></label>
+        <input type="">
+    </form>
+    
+</body>
+</html>

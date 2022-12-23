@@ -1,0 +1,10 @@
+Antes de começar a construir um site, você deve planelá-lo, o que inclui 
+reunir-se com os clientes ou partes interessadas para descobrir suas 
+necessidades, o proprosito  do site e seu publico-alvo. Depois de desenvolver
+um palno, voçe pode começar a construir o site criando um documento HTML e
+adicionando os elementos HTML basicos necessarios para que os visitantes
+possam exibir a pagina da Web em um navegador. Em seguida, inclua elementos 
+HTML5 para definir as seções ou modelo para o site. Um modelo é uma pagina da 
+Web predefinida que contém uma estrutura HTML específica para ser usada por
+todas as paginas do site. Este capitulo se concentra em como criar um modelo de pagina da Web com elementos HTML5 e, em seguida, usar esse modelo para criar
+uma pagina inicial.

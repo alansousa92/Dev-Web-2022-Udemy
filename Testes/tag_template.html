@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tag Template</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <!-- Tag usada para definir um container para codigo HTML
+    que desja renderizar posteriormente, por exemplo, por via javascript -->
+
+    <template id="tpl-1">
+        <li>{{name}}</li>
+    </template>
+
+    <ul>
+
+    </ul>
+    
+    <button type="button">Adicionar</button>
+    
+    <script>
+        const btn = document.querySelector('button');
+        const template = document.querySelector('#tpl-1');
+        const ul = document.querySelector('ul');
+
+        function incre() {
+            ul.append(template.content.cloneNode(true));
+        }
+
+        btn.addEventListener('click', incre);
+    </script>
+</body>
+</html>
